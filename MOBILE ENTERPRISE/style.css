@@ -1,0 +1,297 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-shadow: none !important;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.ui-header {
+  border: none !important;
+  margin: 0 !important;
+}
+[data-role="page"] {
+  text-shadow: none;
+}
+[data-role="footer"] {
+  text-shadow: none !important;
+}
+[data-role="header"] {
+  background-color: #0a2472 !important;
+  height: 280px;
+  padding: 10px 0 !important;
+  
+}
+
+[data-role="header"] img {
+  display: block;
+  margin: 0 auto;   /* centers image horizontally */
+  width: 100px;     /* adjust image size */
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 10px; 
+  position: relative;
+  top: 50%;          /* vertically center */
+  transform: translateY(-50%); /* shift back up by half height */
+}
+.username {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px rgb(255, 255, 255); /* border thickness and color */
+  font-size: 18px;
+  margin-top: 10px;
+  position: relative;
+  top: 40px;
+}
+
+.user-link {
+  display: inline-block;
+  text-shadow: none;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff !important;     /* light gray */
+  text-decoration: none;         /* no underline */
+  background: transparent !important; /* remove jQuery bg */
+  border: none !important;       
+  box-shadow: none !important; 
+  margin-top: 25px;
+ /* optional - no hover pointer */
+}
+/* Remove the white background from ALL headers */
+
+
+
+background-color: #0a2472 !important; 
+
+
+/* Fix background of the entire page (remove white edges) */
+[data-role="page"], .ui-page, html, body {
+  background: #0a2472 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+
+.pfp-container {
+  background-image: url("2.png");
+  backdrop-filter: blur(10px);                /* frosted glass effect */
+  border-radius: 15px;                        /* rounded edges */
+  padding: 25px;                              /* inner spacing */
+  max-width: 800px;       
+  height: 200px;                    /* limit width */
+  margin: 40px auto;                          /* center horizontally */
+  text-align: center;                         /* center all text */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  /* soft drop shadow */
+  
+   
+}
+
+
+[data-role="navbar"] {
+  display: flex;
+  justify-content: center ;
+  background-color: #051650;
+  
+}
+
+.horizontal-navbar ul {
+    color: #333 !important;
+    list-style: none;
+    width: 500px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.horizontal-navbar a {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    background-color: #0a2472 !important;
+   
+}
+
+
+
+[data-role="content"] {
+  color: ;
+  text-align: center;
+  padding: 10px;
+  height: 500px;
+  font-style: italic;
+  background-image: url("3.jpg");
+  background-size: cover;      /* makes the image cover the whole header */
+  background-position: center; /* keeps the image centered */
+  background-repeat: no-repeat;/* prevents tiling */
+  
+}
+
+
+.profile-container {
+  background-color: rgba(255, 255, 255, 0.15); /* light transparent background */
+  backdrop-filter: blur(10px);                /* frosted glass effect */
+  border-radius: 15px;                        /* rounded edges */
+  padding: 25px;                              /* inner spacing */
+  max-width: 800px;                           /* limit width */
+  margin: 40px auto;                          /* center horizontally */
+  text-align: center;                         /* center all text */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  /* soft drop shadow */
+  color: rgb(0, 0, 0);                               /* white text */
+}
+
+.profile-container h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-container p {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+
+/* Customizing the Horizontal Navbar */
+
+[data-role="footer"] {
+  background-color: #051650 !important;
+}
+
+ul[data-role="listview"] li {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3) !important;
+  padding: 15px 10px;
+  
+}
+
+
+
+ul[data-role="listview"] li:nth-child(1) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(2) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+
+
+ul[data-role="listview"] li:nth-child(3) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(4) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(5) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(6) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(7) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+}
+
+ul[data-role="listview"] li:nth-child(8) {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between; 
+  text-shadow: none;
+  
+}
+
+ul[data-role="listview"] li img {
+  width: 150px;
+  height: 200px;
+  display: block;
+  padding-right: 100px;
+}
+
+.anime-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+/* Gallery Styles */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	
+}
+
+.gallery-container img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+h4{
+color:#ffffff;
+}
+
+/* Albums Gallery Container */
+.albums-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Each Album */
+.album {
+    text-align: center;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.album img:hover {
+    transform: scale(1.05);
+}
+
+.album h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 0 0;
+    color: #333;
+}
